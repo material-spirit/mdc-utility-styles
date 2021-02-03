@@ -1,0 +1,18 @@
+$display-values: none, inline, inline-block, block, grid, table, table-cell, table-row, flex, inline-flex;
+
+
+@mixin core-styles($breakpoint: null) {
+  @if($breakpoint) {
+    @each $display in $display-values {
+      .mdcx-d--#{$display}-#{$breakpoint} {
+        display: $display;
+      }
+    }
+  } @else {
+    @each $display in $display-values {
+      .mdcx-d--#{$display} {
+        display: $display;
+      }
+    }
+  }
+}
