@@ -1,0 +1,19 @@
+@use '@material/data-table';
+
+$border-side-values: bottom, top, left, right;
+
+@mixin core-styles($breakpoint: null) {
+  @if($breakpoint) {
+    @each $border-side in $border-side-values {
+      .mdx-border--#{$border-side}-#{$breakpoint} {
+        border-#{$border-side}: 1px solid data-table.$stroke-color !important;
+      }
+    }
+  } @else {
+    @each $border-side in $border-side-values {
+      .mdx-border--#{$border-side} {
+        border-#{$border-side}: 1px solid data-table.$stroke-color !important;
+      }
+    }
+  }
+}
