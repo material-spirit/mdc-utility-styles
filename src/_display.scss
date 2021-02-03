@@ -4,13 +4,13 @@ $display-values: none, inline, inline-block, block, grid, table, table-cell, tab
 @mixin core-styles($breakpoint: null) {
   @if($breakpoint) {
     @each $display in $display-values {
-      .mdcx-d--#{$display}-#{$breakpoint} {
+      .mdx-d--#{$display}-#{$breakpoint} {
         display: $display;
       }
     }
   } @else {
     @each $display in $display-values {
-      .mdcx-d--#{$display} {
+      .mdx-d--#{$display} {
         display: $display;
       }
     }
