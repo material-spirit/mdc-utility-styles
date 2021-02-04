@@ -3,6 +3,7 @@
 @use './flex';
 @use './border';
 @use './display';
+@use './spacing';
 
 
 
@@ -10,7 +11,7 @@
 @include flex.core-styles();
 @include border.core-styles();
 @include display.core-styles();
-
+@include spacing.core-styles();
 
 
 // Breakpoint-specific styles
@@ -19,5 +20,6 @@
     @include flex.core-styles($breakpoint);
     @include border.core-styles($breakpoint);
     @include display.core-styles($breakpoint);
+    @include spacing.core-styles($breakpoint);
   }
 }
