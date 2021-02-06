@@ -40,7 +40,7 @@ Styles behavior is very similar to [Bootstrap's Utility](https://getbootstrap.co
 
 Here is list of CSS classes:
 
-CSS&nbsp;Class&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | Example
+CSS&nbsp;Class&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | Example
 --- | --- | ---
 `mdx-d--<DISPLAY_VALUE>`<br>`mdx-d--<DISPLAY_VALUE>-<DEVICE>` | DISPLAY_VALUE: none, inline, inline-block, block, grid, table, table-cell, table-row, flex, inline-flex. | `mdx-d--flex`<br>`mdx-d--flex-tablet`
 `mdx-align-items--<ALIGN_TYPE>`<br>`mdx-align-items--<ALIGN_TYPE>-<DEVICE>` | ALIGN_TYPE: start, end, center, baseline, stretch. | `mdx-align-items--center`<br>`mdx-align-items--center-phone`
