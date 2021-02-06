@@ -42,10 +42,10 @@ Here is list of CSS classes:
 
 CSS Class | Description
 --- | ---
-`mdx-d--<VALUE>`<br>`mdx-d--<VALUE>-<DEVICE>` | VALUE: none, inline, inline-block, block, grid, table, table-cell, table-row, flex, inline-flex.<br>Examples: `mdx-d--flex`, `mdx-d--flex-tablet`
-`mdx-align-items--<ALIGN>`<br>`mdx-align-items--<ALIGN>-<DEVICE>` | ALIGN: start, end, center, baseline, stretch.<br>Examples: `mdx-align-items--center`, `mdx-align-items--center-phone`
-`mdx-p--<N>`<br>`mdx-p--<N>-<DEVICE>`<br>`mdx-pt--<N>`<br>`mdx-pt--<N>-<DEVICE>`<br>`mdx-pr--<N>`<br>`mdx-pr--<N>-<DEVICE>`<br>`mdx-pb--<N>`<br>`mdx-pb--<N>-<DEVICE>`<br>`mdx-pl--<N>`<br>`mdx-pl--<N>-<DEVICE>`<br>`mdx-px--<N>`<br>`mdx-px--<N>-<DEVICE>`<br>`mdx-py--<N>`<br>`mdx-py--<N>-<DEVICE>`<br> | &lt;N&gt;: value from 0 to 5. Each step is **8px**.<br>Examples: `mdx-p--2`, `mdx-p--2-tablet`, `mdx-pt--1`, `mdx-pt--1-desktop`, `mdx-px--2`, `mdx-px--2-desktop`
-`mdx-m--<N>`<br>`mdx-m--<N>-<DEVICE>`<br>`mdx-mt--<N>`<br>`mdx-mt--<N>-<DEVICE>`<br>`mdx-mr--<N>`<br>`mdx-mr--<N>-<DEVICE>`<br>`mdx-mb--<N>`<br>`mdx-mb--<N>-<DEVICE>`<br>`mdx-ml--<N>`<br>`mdx-ml--<N>-<DEVICE>`<br>`mdx-mx--<N>`<br>`mdx-mx--<N>-<DEVICE>`<br>`mdx-my--<N>`<br>`mdx-my--<N>-<DEVICE>`<br> | &lt;N&gt;: value from 0 to 5. Each step is **8px**.
+`mdx-d--<VALUE>`<br>`mdx-d--<VALUE>-<DEVICE>` | VALUE: none, inline, inline-block, block, grid, table, table-cell, table-row, flex, inline-flex.<br><br>Examples: `mdx-d--flex`, `mdx-d--flex-tablet`
+`mdx-align-items--<ALIGN>`<br>`mdx-align-items--<ALIGN>-<DEVICE>` | ALIGN: start, end, center, baseline, stretch.<br><br>Examples: `mdx-align-items--center`, `mdx-align-items--center-phone`
+`mdx-p--<N>`<br>`mdx-p--<N>-<DEVICE>`<br>`mdx-pt--<N>`<br>`mdx-pt--<N>-<DEVICE>`<br>`mdx-pr--<N>`<br>`mdx-pr--<N>-<DEVICE>`<br>`mdx-pb--<N>`<br>`mdx-pb--<N>-<DEVICE>`<br>`mdx-pl--<N>`<br>`mdx-pl--<N>-<DEVICE>`<br>`mdx-px--<N>`<br>`mdx-px--<N>-<DEVICE>`<br>`mdx-py--<N>`<br>`mdx-py--<N>-<DEVICE>`<br> | &lt;N&gt;: value from 0 to 5. Each step is **8px**.<br><br>Examples: `mdx-p--2`, `mdx-p--2-tablet`, `mdx-pt--1`, `mdx-pt--1-desktop`, `mdx-px--2`, `mdx-px--2-desktop`
+`mdx-m--<N>`<br>`mdx-m--<N>-<DEVICE>`<br>`mdx-mt--<N>`<br>`mdx-mt--<N>-<DEVICE>`<br>`mdx-mr--<N>`<br>`mdx-mr--<N>-<DEVICE>`<br>`mdx-mb--<N>`<br>`mdx-mb--<N>-<DEVICE>`<br>`mdx-ml--<N>`<br>`mdx-ml--<N>-<DEVICE>`<br>`mdx-mx--<N>`<br>`mdx-mx--<N>-<DEVICE>`<br>`mdx-my--<N>`<br>`mdx-my--<N>-<DEVICE>`<br> | &lt;N&gt;: value from 0 to 5. Each step is **8px**.<br><br>
 
 ### Display
 
