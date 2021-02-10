@@ -5,13 +5,13 @@ $display-values: none, inline, inline-block, block, grid, table, table-cell, tab
   @if($breakpoint) {
     @each $display in $display-values {
       .mdx-d--#{$display}-#{$breakpoint} {
-        display: $display;
+        display: $display !important;
       }
     }
   } @else {
     @each $display in $display-values {
       .mdx-d--#{$display} {
-        display: $display;
+        display: $display !important;
       }
     }
   }

@@ -1,6 +1,6 @@
 module.exports = [{
   mode: "development",
-  entry: ['./src/mdc-utility-styles.scss'],
+  entry: ['./scss/mdc-utility-styles.scss'],
   output: {
     // This is necessary for webpack to compile
     // But we never use bundle.js

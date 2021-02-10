@@ -4,6 +4,7 @@
 @use './border';
 @use './display';
 @use './spacing';
+@use './theme';
 
 
 
@@ -12,6 +13,7 @@
 @include border.core-styles();
 @include display.core-styles();
 @include spacing.core-styles();
+@include theme.core-styles();
 
 
 // Breakpoint-specific styles
