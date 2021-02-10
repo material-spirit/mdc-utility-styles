@@ -1,0 +1,17 @@
+$align-items-values: start, end, center, baseline, stretch;
+
+@mixin core-styles($breakpoint: null) {
+  @if($breakpoint) {
+    @each $align-items in $align-items-values {
+      .mdx-align-items--#{$align-items}-#{$breakpoint} {
+        align-items: $align-items !important;
+      }
+    }
+  } @else {
+    @each $align-items in $align-items-values {
+      .mdx-align-items--#{$align-items} {
+        align-items: $align-items !important;
+      }
+    }
+  }
+}

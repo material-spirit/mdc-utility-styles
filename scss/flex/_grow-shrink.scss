@@ -1,0 +1,23 @@
+$grow-shrink-types: grow, shrink;
+$grow-shrink-values: 0, 1;
+
+@mixin core-styles($breakpoint: null) {
+  @if($breakpoint) {
+    @each $type in $grow-shrink-types {
+      @each $value in $grow-shrink-values {
+        .mdx-flex-#{$type}--#{$value}-#{$breakpoint} {
+          flex-#{$type}: $value !important;
+        }
+      }
+    }
+  } @else {
+    @each $type in $grow-shrink-types {
+      @each $value in $grow-shrink-values {
+        .mdx-flex-#{$type}--#{$value} {
+          flex-#{$type}: $value !important;
+        }
+      }
+    }
+  }
+}
+
