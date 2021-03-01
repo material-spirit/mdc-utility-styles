@@ -96,5 +96,13 @@ Examples: `.mdx-d--flex .mdx-d--none-desktop` - sets `display:flex`, but hides t
 Но использовать default spacing классов делает код более consistent.
 
 
+### Flex
 
+Use the `.mdx-flex-fill` class on a series of sibling elements to force them into widths equal to their content (or equal widths if their content does not surpass their border-boxes) while taking up all available horizontal space. See [Bootstrap's .flex-fill](https://getbootstrap.com/docs/5.0/utilities/flex/#fill) for more
+information.
 
+Variations:
+- `.mdx-flex-fill`
+- `.mdx-flex-fill--desktop`
+- `.mdx-flex-fill--tablet`
+- `.mdx-flex-fill--phone`
