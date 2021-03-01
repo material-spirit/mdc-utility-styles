@@ -1,13 +1,16 @@
 @use './align-items';
+@use './fill';
 @use './grow-shrink';
 
 
 @mixin core-styles($breakpoint: null) {
   @if($breakpoint) {
     @include align-items.core-styles($breakpoint);
+    @include fill.core-styles($breakpoint);
     @include grow-shrink.core-styles($breakpoint);
   } @else {
     @include align-items.core-styles();
+    @include fill.core-styles();
     @include grow-shrink.core-styles();
   }
 }

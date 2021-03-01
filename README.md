@@ -80,3 +80,29 @@ Where value is one of:
 Examples: `.mdx-d--flex .mdx-d--none-desktop` - sets `display:flex`, but hides the element on desktop screen size.
 
 
+### Spacing
+
+`.mdx-p--default` и `.mdx-m--default` - устанавливает default отступ для текущего DEVICE. Эти классы отличаются по поведению от других spacing-классов, задающих абсолютное значение отступа. Данный класс устанавливает различное значение для разных типов устройств:
+- phone - 16px
+- tablet - 16px
+- desktop - 24px
+
+Эти значения [определятся в MDC](https://github.com/material-components/material-components-web/blob/master/packages/mdc-layout-grid/_variables.scss) и используются в других MDC-компонентах.
+
+В принципе того же можно добиться используя типичные spacing классы, например:
+
+`mdx-p--default` = `mdx-p--2-phone mdx-p--2-tablet mdx-p--3-desktop`.
+
+Но использовать default spacing классов делает код более consistent.
+
+
+### Flex
+
+Use the `.mdx-flex-fill` class on a series of sibling elements to force them into widths equal to their content (or equal widths if their content does not surpass their border-boxes) while taking up all available horizontal space. See [Bootstrap's .flex-fill](https://getbootstrap.com/docs/5.0/utilities/flex/#fill) for more
+information.
+
+Variations:
+- `.mdx-flex-fill`
+- `.mdx-flex-fill--desktop`
+- `.mdx-flex-fill--tablet`
+- `.mdx-flex-fill--phone`

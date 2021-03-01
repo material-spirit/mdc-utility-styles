@@ -26,9 +26,12 @@ $spacing-axis-values: (
   @include all-sides-spacing-styles(padding, $breakpoint);
   @include one-side-spacing-styles(padding, $breakpoint);
   @include axis-spacing-styles(padding, $breakpoint);
+
   @include all-sides-spacing-styles(margin, $breakpoint);
   @include one-side-spacing-styles(margin, $breakpoint);
   @include axis-spacing-styles(margin, $breakpoint);
+
+  @include default-spacing($breakpoint);
 }
 
 /// @param { String } $spacing-type Either padding or margin
@@ -78,6 +81,18 @@ $spacing-axis-values: (
           }
         }
       }
+    }
+  }
+}
+
+@mixin default-spacing($breakpoint: null) {
+  @if($breakpoint) {
+    .mdx-p--default {
+      padding: map.get(layout-grid.$default-margin, $breakpoint) !important;
+    }
+
+    .mdx-m--default {
+      margin: map.get(layout-grid.$default-margin, $breakpoint) !important;
     }
   }
 }
