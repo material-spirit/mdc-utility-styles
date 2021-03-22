@@ -27,7 +27,7 @@ npm i --save mdc-utility-styles
 
 ```
 
-### Step 2: include CSS styles.
+### Step 2: include CSS styles
 
 You can include the styles in your main.js:
 ``` js
