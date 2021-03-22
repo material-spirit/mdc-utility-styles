@@ -1,4 +1,4 @@
-# mdc-css-utils
+# mdc-utility-styles
 
 This package is inspired by [Bootstrap utility styles](https://getbootstrap.com/docs/5.0/utilities/borders/) and implements very similar set of CSS classes for 
 [Material Components for web (MDC)](https://material.io/develop/web).
@@ -13,6 +13,31 @@ Nothing prevents from using some other utility styles package because MDC is hig
 - [Styles](#styles)
   - [Class naming](#class-naming)
   - [Display](#display)
+
+## Usage
+
+Step 1: install `mdc-utility-styles`.
+
+``` bash
+# YARN
+yarn add mdc-utility-styles
+
+# or NPM
+npm i --save mdc-utility-styles
+
+```
+
+Step 2: include CSS styles.
+
+You can include the styles in your main.js:
+``` js
+import 'mdc-utility-styles/dist/mdc-utility-styles.css'
+```
+
+Or in SCSS:
+``` scss
+@import "~mdc-utility-styles/dist/mdc-utility-styles.css";
+```
 
 
 ## Styles
