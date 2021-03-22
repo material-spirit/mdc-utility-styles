@@ -16,7 +16,7 @@ Nothing prevents from using some other utility styles package because MDC is hig
 
 ## Usage
 
-### Step 1: install `mdc-utility-styles`.
+### Step 1: install `mdc-utility-styles`
 
 ``` bash
 # YARN
