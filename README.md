@@ -45,8 +45,9 @@ Or in SCSS:
 
 ### Class naming
 
-Class names are basically the same as in Bootstrap, with a little bit of MDC flavor. Lets review an example: `.mdx-d--flex-desktop`:
+Class names are basically the same as in Bootstrap, with a little bit of MDC flavor. Lets review an example.
 
+`.mdx-d--flex-desktop`:
 1. Class name starts with `.mdx-` prefix. _mdx_ stands for _Material Design Extensions_. Having prefix makes it easy finding all usages of this package.
 2. `d--flex` corresponds with Bootstrap's [`d-flex`](https://getbootstrap.com/docs/5.0/utilities/display/). But since we follow BEM naming, we separate `flex` with double dash. BEM naming is used to be inline with other MDC packages.
 3. At the end there is optional `-desktop`, `-tablet` or `-phone`. It is basically similar to `lg`, `md` and `sm` in Bootstrap, but follows MDC pattern for naming such classes.
