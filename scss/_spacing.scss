@@ -31,6 +31,7 @@ $spacing-axis-values: (
   @include one-side-spacing-styles(margin, $breakpoint);
   @include axis-spacing-styles(margin, $breakpoint);
 
+  @include x-auto-spacing-styles($breakpoint);
   @include default-spacing($breakpoint);
 }
 
@@ -81,6 +82,20 @@ $spacing-axis-values: (
           }
         }
       }
+    }
+  }
+}
+
+@mixin x-auto-spacing-styles($breakpoint: null) {
+  @if($breakpoint) {
+    .mdx-mx--auto-#{$breakpoint} {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+  } @else {
+    .mdx-mx--auto {
+      margin-left: auto !important;
+      margin-right: auto !important;
     }
   }
 }

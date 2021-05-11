@@ -121,6 +121,11 @@ Examples: `.mdx-d--flex .mdx-d--none-desktop` - sets `display:flex`, but hides t
 
 Но использовать default spacing классов делает код более consistent.
 
+---
+
+`.mdx-mx--auto` и `.mdx-mx--auto--<DEVICE>` - устанавливает `margin-left: auto; margin-right: auto;`.
+
+
 
 ### Flex
 
