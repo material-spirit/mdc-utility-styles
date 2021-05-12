@@ -137,3 +137,9 @@ Variations:
 - `.mdx-flex-fill--desktop`
 - `.mdx-flex-fill--tablet`
 - `.mdx-flex-fill--phone`
+
+---
+
+Use `.mdx-justify-content--<ALIGNMENT>` and `.mdx-justify-content--<ALIGNMENT>-<DEVICE>` on flexbox containers to change the alignment of flex items on the main axis (the x-axis to start, y-axis if flex-direction: column). Choose from start (browser default), end, center, between, around, or evenly.
+
+ALIGNMENT: end, center, between, around, evenly.

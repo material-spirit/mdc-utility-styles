@@ -1,6 +1,7 @@
 @use './align-items';
 @use './fill';
 @use './grow-shrink';
+@use './justify-content';
 
 
 @mixin core-styles($breakpoint: null) {
@@ -8,9 +9,11 @@
     @include align-items.core-styles($breakpoint);
     @include fill.core-styles($breakpoint);
     @include grow-shrink.core-styles($breakpoint);
+    @include justify-content.core-styles($breakpoint);
   } @else {
     @include align-items.core-styles();
     @include fill.core-styles();
     @include grow-shrink.core-styles();
+    @include justify-content.core-styles();
   }
 }
